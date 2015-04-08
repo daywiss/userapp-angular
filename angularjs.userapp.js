@@ -312,7 +312,7 @@ var userappModule = angular.module('UserApp', []);
                         }
 
                         if (!checkAccessToState(toState, toParams)) {
-                            ev.preventDefault();
+                            // ev.preventDefault();
                         }
                     });
                 } else if ($route) {
